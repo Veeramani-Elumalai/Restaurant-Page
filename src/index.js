@@ -1,3 +1,4 @@
-import { greeting } from "./greeting.js";
+import { header } from "./js/header.js";
 import "./styles.css";
-console.log(greeting);
+
+document.body.appendChild(header);
