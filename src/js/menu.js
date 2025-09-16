@@ -1,8 +1,8 @@
-import biriyani from "..assets/biriyani.png";
-import parotta from "..assets/parotta.png";
-import dosa from "..assets/dosa.png";
-import payasam from "..assets/payasam.png";
-import brownie from "..assets/brownie.png";
+import biriyani from "../assets/biriyani.png";
+import parotta from "../assets/parotta.png";
+import dosa from "../assets/dosa.png";
+import payasam from "../assets/payasam.png";
+import brownie from "../assets/brownie.png";
 
 const divMenu = document.createElement("div");
 divMenu.id = "divMenu";
