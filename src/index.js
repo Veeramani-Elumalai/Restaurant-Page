@@ -1,6 +1,7 @@
 import { header } from "./js/header.js";
 import { divContent } from "./js/contentMain.js";
 import { divMenu, divmenu } from "./js/menu.js";
+import { divAbout } from "./js/about.js";
 import "./styles.css";
 
 document.body.appendChild(header);
@@ -10,6 +11,7 @@ document.body.appendChild(divContent);
 const homeButton = document.querySelector("#home");
 homeButton.addEventListener("click", ()=> {
     divMenu.remove();
+    divAbout.remove();
     document.body.appendChild(divContent);
 });
 
@@ -17,5 +19,14 @@ homeButton.addEventListener("click", ()=> {
 const menuButton = document.querySelector("#menu");
 menuButton.addEventListener("click", ()=> {
     divContent.remove();
+    divAbout.remove();
     document.body.appendChild(divMenu);
+});
+
+//About button
+const aboutButton = document.querySelector("#about");
+aboutButton.addEventListener("click", ()=> {
+    divContent.remove();
+    divMenu.remove();
+    document.body.appendChild(divAbout);
 });

@@ -5,7 +5,7 @@ const divContent = document.createElement("div");
 divContent.id = "content";
 
 const heading = document.createElement("h1");
-heading.textContent = "Welcome To Our Restaurant !!"
+heading.textContent = "The Comfort Corner"
 
 const img = document.createElement("img");
 img.src = heroImg;
