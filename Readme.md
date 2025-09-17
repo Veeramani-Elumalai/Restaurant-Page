@@ -17,8 +17,6 @@ The project showcases a multi-page layout with navigation handled dynamically wi
 - 📖 **About** – Story of *The Comfort Corner*  
 - 🍽️ **Menu** – Food and drinks list  
 
-
-
 ## 🛠️ Tech Stack  
 
 - **JavaScript (ES6 Modules)**  
