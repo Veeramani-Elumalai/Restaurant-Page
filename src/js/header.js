@@ -2,15 +2,15 @@ const header = document.createElement("header");
 const navBar = document.createElement("nav");
 
 const home = document.createElement("button");
-home.id = "home";
+home.id = "homeBtn";
 home.textContent = "Home";
 
 const menu = document.createElement("button");
-menu.id = "menu";
+menu.id = "menuBtn";
 menu.textContent = "Menu";
 
 const about = document.createElement("button");
-about.id = "about";
+about.id = "aboutBtn";
 about.textContent = "About";
 
 document.body.appendChild(header);

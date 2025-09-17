@@ -8,7 +8,7 @@ document.body.appendChild(header);
 document.body.appendChild(divContent);
 
 //Home button
-const homeButton = document.querySelector("#home");
+const homeButton = document.querySelector("#homeBtn");
 homeButton.addEventListener("click", ()=> {
     divMenu.remove();
     divAbout.remove();
@@ -16,7 +16,7 @@ homeButton.addEventListener("click", ()=> {
 });
 
 //Menu button 
-const menuButton = document.querySelector("#menu");
+const menuButton = document.querySelector("#menuBtn");
 menuButton.addEventListener("click", ()=> {
     divContent.remove();
     divAbout.remove();
@@ -24,7 +24,7 @@ menuButton.addEventListener("click", ()=> {
 });
 
 //About button
-const aboutButton = document.querySelector("#about");
+const aboutButton = document.querySelector("#aboutBtn");
 aboutButton.addEventListener("click", ()=> {
     divContent.remove();
     divMenu.remove();
