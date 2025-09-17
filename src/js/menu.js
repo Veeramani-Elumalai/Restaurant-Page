@@ -1,8 +1,8 @@
-import biriyani from "../assets/biriyani.png";
-import parotta from "../assets/parotta.png";
-import dosa from "../assets/dosa.png";
-import payasam from "../assets/payasam.png";
-import brownie from "../assets/brownie.png";
+import biriyani from "../assets/biriyani.jpg";
+import parotta from "../assets/parotta.jpg";
+import dosa from "../assets/dosa.jpg";
+import payasam from "../assets/payasam.jpg";
+import brownie from "../assets/brownie.jpg";
 
 const divMenu = document.createElement("div");
 divMenu.id = "divMenu";
@@ -18,6 +18,9 @@ const divPayasam = document.createElement("div");
 divPayasam.className = "divFoodItem"
 const divBrownie = document.createElement("div");
 divBrownie.className = "divFoodItem"
+
+const menuText = document.createElement("h2");
+menuText.textContent = "Menu";
 
 //food images
 const imgBiriyani = document.createElement("img");
@@ -51,7 +54,7 @@ divPayasam.append(imgPayasam, disPayasam);
 divBrownie.append(imgBrownie, disBrownie);
 
 //appending food containers to the main div of menu
-divMenu.append(divBiriyani, divParotta, divDosa, divPayasam, divBrownie);
+divMenu.append(menuText, divBiriyani, divParotta, divDosa, divPayasam, divBrownie);
 
 
 export {divMenu};

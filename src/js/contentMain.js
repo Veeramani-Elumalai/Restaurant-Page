@@ -1,5 +1,5 @@
 import { specialsCard } from "./specials";
-import heroImg from "../assets/00.jpeg";
+import heroImg from "../assets/home.jpg";
 
 const divContent = document.createElement("div");
 divContent.id = "content";
@@ -8,6 +8,8 @@ const heading = document.createElement("h1");
 heading.textContent = "The Comfort Corner"
 
 const img = document.createElement("img");
+img.width = "400";
+img.height = "250";
 img.src = heroImg;
 
 const divSpecials = document.createElement("div");
